@@ -111,6 +111,13 @@ body .page-register .formulario form input{
     filter: blur(250px);
 }
 
+.page-register button, .page button{
+    background-color: #684df4;
+    padding: 15px;
+    color:#fff;
+    font-weight: 700;
+}
+
 
 @media screen and (max-width: 991px){
     .box-hero{
