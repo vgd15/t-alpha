@@ -58,7 +58,7 @@ const Login = () => {
         placeholder="Password"
         required
       />
-      <button type="submit">Login</button>
+      <button class="login" type="submit">Login</button>
       <button><a href="/register">Register</a></button>
 
     </form>

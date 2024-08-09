@@ -40,12 +40,32 @@ body .page-register .formulario form input{
     padding:5px;
 }
 
-.formulario button{
+.formulario .login{
     background:#684df4;
     padding: 15px;
     border:none;
+    color:#fff;
+    font-weight: 700;
+}
+
+.formulario .login:hover{
+    background: #000;
+}
+
+.formulario button{
+    border:none;
+    padding: 0;
+}
+
+.formulario button a{
+    background:#684df4;
+    padding: 15px 0;
+    border:none;
     font-weight: 600;
     color:#ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%!important;
 }
 
 .formulario button a{
@@ -53,7 +73,7 @@ body .page-register .formulario form input{
     text-decoration: none;
 }
 
-.formulario button:hover{
+.formulario button a:hover{
     background: #000;
 }
 
