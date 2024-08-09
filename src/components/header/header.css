@@ -1,0 +1,15 @@
+.header-geral{
+    padding: 25px 40px;
+    box-shadow: 0px 4px 15.3px 0px #00000040;
+}
+
+.links-button li{
+    list-style: none;
+}
+
+.links-button button{
+    background:#684df4;
+    border:none;
+    color:#ffffff;
+    padding: 15px;
+}

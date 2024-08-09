@@ -1,0 +1,99 @@
+.page-login, .page-register {
+    height: 100vh;
+    background: #684df4;
+}
+
+.formulario{
+    border-right: 1px solid #ccc;
+}
+
+.formulario, .box-hero{
+    background:#F7F8FD;;
+    padding: 30px 30px;
+    overflow: hidden;
+    min-width: 311px;
+}
+
+.formulario img{
+    width: 150px;
+    height: 40px;
+}
+
+.formulario form{
+    gap:30px
+}
+
+.page-register .formulario form{
+    gap:20px;
+}
+
+.formulario h2{
+    font-weight: 700;
+}
+
+body .formulario form input{
+    border:1px solid #ccc;
+    padding: 15px
+}
+
+body .page-register .formulario form input{
+    padding:5px;
+}
+
+.formulario button{
+    background:#684df4;
+    padding: 15px;
+    border:none;
+    font-weight: 600;
+    color:#ffffff;
+}
+
+.formulario button a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.formulario button:hover{
+    background: #000;
+}
+
+.box-hero{
+    position: relative;
+    height: 555px;
+}
+
+.box-hero img{
+    width: 440px;
+    position: relative;
+    z-index: 1;
+}
+
+.box-hero:after{
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: #684df4;
+    border-radius: 50%;
+    top: 194px;
+    left: 8px;
+}
+
+.hero-decoration{
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+    width: 534px;
+    height: 534px;
+    background: #684df4;
+    opacity: 0.5;
+    -webkit-filter: blur(250px);
+    filter: blur(250px);
+}
+
+
+@media screen and (max-width: 991px){
+    .box-hero{
+        display:none;
+    }
+}
