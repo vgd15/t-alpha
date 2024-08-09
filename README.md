@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# [Link do deploy](https://t-alpha-ochre.vercel.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
